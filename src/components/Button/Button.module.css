@@ -13,7 +13,7 @@
 .loadmoreBtn:hover,
 .button:focus {
   background-color: #0056b3;
-  outline: none; /* Убираем стандартное браузерное оформление фокуса */
+  outline: none;
 }
 
 .loadmoreBtn:disabled {
