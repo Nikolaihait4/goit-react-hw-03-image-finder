@@ -27,7 +27,7 @@ export default class Modal extends Component {
 
     if (!selectedImage) return null;
 
-    const { tags, webformatURL, largeImageURL } = selectedImage;
+    const { tags, largeImageURL } = selectedImage;
 
     return (
       <div className={css.overlay} onClick={this.handleOverlayClick}>
